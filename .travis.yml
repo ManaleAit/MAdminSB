@@ -4,12 +4,11 @@ jdk:
 before_install:
   - chmod +x mvn
 script: ./mvnw clean install
-
 jobs:
   include:
     -stage: Test
      script: ./mvnw clean test
-notification:
+notifications:
   email: manalensa20@gmail.com
 
   
