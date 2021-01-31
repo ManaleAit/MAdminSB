@@ -1,5 +1,10 @@
 language: java
-dist: trusty
 jdk:
-  - oraclejdk11
-sudo: required
+  - openjdk8
+script: ./mvnw clean install
+
+notification:
+  email: manalensa20@gmail.com
+
+  
+ 
