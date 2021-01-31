@@ -8,7 +8,7 @@ jobs:
   include:
     - stage: "Tests"                # naming the Tests stage
       name: "Unit Tests"            # names the first Tests stage job
-      script: ./mvn test
+      script: ./mvnw test
 notifications:
   email: manalensa20@gmail.com
 
