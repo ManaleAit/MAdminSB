@@ -15,7 +15,7 @@ public class MicroserviceApplication  {
 
 	}
 	
-   /* public void run(String... params) {
+  /* public void run(String... params) {
     
     	Admin a=new Admin(3L,"manal","manal","ffff","hgyg","7777");
     	Admin s=AdminRepository.insert(a);
@@ -23,3 +23,4 @@ public class MicroserviceApplication  {
     	
       }*/
 }
+ 
