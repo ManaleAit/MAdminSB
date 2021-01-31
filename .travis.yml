@@ -4,6 +4,11 @@ jdk:
 before_install:
   - chmod +x mvnw
 script: ./mvnw clean install
+jobs:
+  include:
+    - stage: "Tests"                # naming the Tests stage
+      name: "Unit Tests"            # names the first Tests stage job
+      script: ./mvn test
 notifications:
   email: manalensa20@gmail.com
 
